@@ -1,46 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <title>Admin Dashboard</title>
-</head>
-<body>
-  <div id="sidebar">
-    <div id="dashboard">
-      Dashboard
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Admin Dashboard</title>
+  </head>
+  <body>
+    <div id="sidebar">
+      <div id="dashboard"><h2>Dashboard</h2></div>
+      <div id="links">
+        <ul>
+          <li>Home</li>
+          <li>Profile</li>
+          <li>Messages</li>
+          <li>History</li>
+          <li>Tasks</li>
+          <li>Communities</li>
+        </ul>
+      </div>
+      <div id="other-links">
+        <ul>
+          <li>Settings</li>
+          <li>Support</li>
+          <li>Privacy</li>
+        </ul>
+      </div>
     </div>
-    <div id="links">
-      <ul>
-        <li>Home</li>
-        <li>Profile</li>
-        <li>Messages</li>
-        <li>History</li>
-        <li>Tasks</li>
-        <li>Communities</li>
-      </ul>
+    <div id="header">
+      <div id="search">
+        <div>icon</div>
+        <input type="text" />
+      </div>
+      <div id="right-top">
+        <div class="notification">notification</div>
+        <div class="profile-pic">profile pic</div>
+        <div class="name">Morgan Oakley</div>
+      </div>
+      <div id="left-bottom">
+        <div class="profile-pic">profile pic</div>
+        <div class="name-section">
+          <div class="greeting">greeting</div>
+          <div class="user-name">Morgan Oakley (@morgan)</div>
+        </div>
+      </div>
+      <div id="right-bottom">
+        <button>New</button>
+        <button>Upload</button>
+        <button>Share</button>
+      </div>
     </div>
-    <div id="other-links">
-      <ul>
-        <li>Settings</li>
-        <li>Support</li>
-        <li>Privacy</li>
-      </ul>
+    <div id="main-content">
+      <div id="projects">
+        <div class="projects-title">Your Projects</div>
+        <div class="project-card">Super Cool Project</div>
+        <div class="project-card">Less Cool Project</div>
+        <div class="project-card">Impossible App</div>
+        <div class="project-card">Easy Peasy App</div>
+        <div class="project-card">Ad Blocker</div>
+        <div class="project-card">Money Maker</div>
+      </div>
+      <div id="announcements">
+        <div class="announcements-title">Announcements</div>
+      </div>
+      <div id="trending">
+        <div class="trending-title">Trending</div>
+      </div>
     </div>
-  </div>
-  <div id="header">
-    <div id="top-header">
-      <div id="search">search bar and icon</div>
-      <div id="right-top">notification, profile pic and name</div>
-    </div>
-    <div id="bottom-header">
-      <div id="left-bottom">profile pic, greeting, name and user name</div>
-      <div id="right-bottom">new, upload and share buttons</div>
-    </div>
-  </div>
-  <div id="main-content">
-    main-content
-  </div>
-</body>
+  </body>
 </html>
